@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
 }
 
 h1,
+h2,
 .nav ul li {
   text-transform: uppercase;
 }
@@ -30,5 +32,16 @@ ul {
 
 .nav ul li a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-container h2 a {
+  color: #c00100;
   text-decoration: none;
 }
